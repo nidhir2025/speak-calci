@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #002f4b, #315786);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(79, 110, 169, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(118, 159, 230, 0.1);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+#errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
